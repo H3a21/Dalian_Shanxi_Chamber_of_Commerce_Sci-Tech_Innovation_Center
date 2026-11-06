@@ -1,0 +1,70 @@
+{
+  "name": "flask_web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@silexlabs/grapesjs-fonts": "github:silexlabs/grapesjs-fonts",
+    "axios": "^1.14.0",
+    "core-js": "^3.8.3",
+    "echarts": "^6.0.0",
+    "element-plus": "^2.13.6",
+    "grapesjs": "^0.22.16",
+    "grapesjs-blocks-basic": "^1.0.2",
+    "grapesjs-blocks-flexbox": "^1.0.1",
+    "grapesjs-custom-code": "^1.0.2",
+    "grapesjs-float": "^0.0.7",
+    "grapesjs-indexeddb": "^1.0.5",
+    "grapesjs-lory-slider": "^0.1.5",
+    "grapesjs-navbar": "^1.0.2",
+    "grapesjs-parser-postcss": "^1.0.3",
+    "grapesjs-plugin-ckeditor": "^1.0.1",
+    "grapesjs-plugin-export": "^1.0.12",
+    "grapesjs-plugin-forms": "^2.0.6",
+    "grapesjs-preset-webpage": "^1.0.3",
+    "grapesjs-style-bg": "^2.0.2",
+    "grapesjs-style-filter": "^1.0.2",
+    "grapesjs-style-gradient": "^3.0.3",
+    "grapesjs-tabs": "^1.0.6",
+    "grapesjs-tui-image-editor": "^1.0.2",
+    "grapesjs-ui-suggest-classes": "^1.0.19",
+    "pinia": "^3.0.4",
+    "socket.io-client": "^4.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
